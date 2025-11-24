@@ -2,7 +2,7 @@ package com.milhas.controller;
 
 import com.milhas.dto.card.CardRequest;
 import com.milhas.dto.card.CardResponse;
-import com.milhas.service.CardService; // <-- CORREÇÃO: Importa a interface
+import com.milhas.service.CardService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

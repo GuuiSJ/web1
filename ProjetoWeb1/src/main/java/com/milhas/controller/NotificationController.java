@@ -1,7 +1,7 @@
 package com.milhas.controller;
 
 import com.milhas.dto.notification.NotificationResponse;
-import com.milhas.service.NotificationService; // <-- CORREÇÃO: Importa a interface
+import com.milhas.service.NotificationService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;

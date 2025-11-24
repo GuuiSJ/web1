@@ -6,7 +6,7 @@ import com.milhas.dto.auth.PasswordResetRequest;
 import com.milhas.dto.auth.RegisterRequest;
 import com.milhas.dto.auth.UpdatePasswordRequest;
 import com.milhas.security.JwtTokenProvider;
-import com.milhas.service.UsuarioService; // <-- CORREÇÃO: Importa a interface
+import com.milhas.service.UsuarioService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

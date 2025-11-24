@@ -2,7 +2,7 @@ package com.milhas.controller;
 
 import com.milhas.dto.flag.FlagDTO;
 import com.milhas.dto.progpontos.ProgPontosDTO;
-import com.milhas.service.FlagService; // <-- CORREÇÃO: Importa a interface
+import com.milhas.service.FlagService;
 import com.milhas.service.ProgPontosService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
