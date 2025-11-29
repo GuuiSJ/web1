@@ -57,7 +57,7 @@ public class BuyServiceImpl implements BuyService {
     }
 
     private BuyResponse mapToDTO(BuyEntity entity) {
-        Integer diasParaCredito = null; // Valor padrão
+        Integer diasParaCredito = null;
 
         if (entity.getStatus() == BuyStatus.PENDENTE) {
             LocalDate hoje = LocalDate.now();

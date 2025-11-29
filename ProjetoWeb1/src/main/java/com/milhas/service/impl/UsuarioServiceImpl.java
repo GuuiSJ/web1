@@ -40,7 +40,11 @@ public class UsuarioServiceImpl implements UsuarioService {
         usuario.setNome(dto.nome());
         usuario.setEmail(dto.email());
         usuario.setSenha(passwordEncoder.encode(dto.senha()));
-        usuario.setRole(UserRole.USER);
+        if (dto.role() != null) {
+            usuario.setRole(dto.role());
+        } else {
+            usuario.setRole(UserRole.USER);
+        }
         usuarioRepository.save(usuario);
     }
 
